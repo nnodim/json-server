@@ -1,9 +1,181 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "artisans": [
+    {
+      "id": "1",
+      "name": "Chinedu Okafor",
+      "trade": "Carpenter",
+      "location": "Ikeja, Lagos",
+      "rating": 4.9,
+      "reviewCount": 132,
+      "bio": "Master carpenter with over 15 years of experience in custom furniture and home fittings.",
+      "hourlyRate": 8000,
+      "availability": "available",
+      "portfolio": [
+        { "id": "p1", "imageUrl": "", "title": "Custom Wardrobe" },
+        { "id": "p2", "imageUrl": "", "title": "TV Console Unit" }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Tunde Adebayo",
+      "trade": "Electrician",
+      "location": "Yaba, Lagos",
+      "rating": 4.7,
+      "reviewCount": 91,
+      "bio": "Certified electrician specializing in residential wiring and inverter installations.",
+      "hourlyRate": 9000,
+      "availability": "busy",
+      "portfolio": [
+        { "id": "p3", "imageUrl": "", "title": "Solar & Inverter Setup" }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Blessing Eze",
+      "trade": "Plumber",
+      "location": "Gwarinpa, Abuja",
+      "rating": 5.0,
+      "reviewCount": 210,
+      "bio": "Professional plumber experienced in modern plumbing systems and water conservation.",
+      "hourlyRate": 8500,
+      "availability": "available",
+      "portfolio": [
+        { "id": "p4", "imageUrl": "", "title": "Bathroom Plumbing" },
+        { "id": "p5", "imageUrl": "", "title": "Kitchen Sink Installation" }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Sadiq Bello",
+      "trade": "Carpenter",
+      "location": "Ilorin, Kwara",
+      "rating": 4.8,
+      "reviewCount": 148,
+      "bio": "Specialist in custom doors, wardrobes, and interior wood finishing.",
+      "hourlyRate": 7500,
+      "availability": "available",
+      "portfolio": [
+        { "id": "p6", "imageUrl": "", "title": "Custom Wooden Doors" }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Amina Musa",
+      "trade": "Painter",
+      "location": "Kano Municipal, Kano",
+      "rating": 4.6,
+      "reviewCount": 79,
+      "bio": "Professional painter skilled in interior, exterior, and decorative finishes.",
+      "hourlyRate": 6000,
+      "availability": "unavailable",
+      "portfolio": []
+    },
+    {
+      "id": "6",
+      "name": "Ibrahim Lawal",
+      "trade": "Tiler",
+      "location": "Ogbomosho, Oyo",
+      "rating": 4.5,
+      "reviewCount": 64,
+      "bio": "Experienced tiler for floor, wall, and bathroom tiling projects.",
+      "hourlyRate": 6500,
+      "availability": "available",
+      "portfolio": [
+        { "id": "p7", "imageUrl": "", "title": "Bathroom Wall Tiles" }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Kelvin Udo",
+      "trade": "POP Installer",
+      "location": "Uyo, Akwa Ibom",
+      "rating": 4.8,
+      "reviewCount": 118,
+      "bio": "POP ceiling specialist with clean modern designs and lighting integration.",
+      "hourlyRate": 7000,
+      "availability": "available",
+      "portfolio": [
+        { "id": "p8", "imageUrl": "", "title": "Modern POP Ceiling" }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Rasheed Ajayi",
+      "trade": "Welder",
+      "location": "Ibadan, Oyo",
+      "rating": 4.4,
+      "reviewCount": 52,
+      "bio": "Fabrication and welding expert for gates, railings, and steel structures.",
+      "hourlyRate": 7500,
+      "availability": "busy",
+      "portfolio": [
+        { "id": "p9", "imageUrl": "", "title": "Steel Gate Fabrication" }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Ngozi Nwankwo",
+      "trade": "Interior Decorator",
+      "location": "Awka, Anambra",
+      "rating": 4.9,
+      "reviewCount": 134,
+      "bio": "Interior decorator focused on modern Nigerian home aesthetics.",
+      "hourlyRate": 10000,
+      "availability": "available",
+      "portfolio": [
+        { "id": "p10", "imageUrl": "", "title": "Living Room Styling" }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Abdul Rahman Sadiq",
+      "trade": "Generator Technician",
+      "location": "Minna, Niger",
+      "rating": 4.6,
+      "reviewCount": 87,
+      "bio": "Generator repair and maintenance specialist for diesel and petrol gens.",
+      "hourlyRate": 7000,
+      "availability": "available",
+      "portfolio": []
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "serviceRequests": [
+    {
+      "id": "c8f7",
+      "artisanId": "1",
+      "name": "obinna nnodim",
+      "email": "nnodimobinna@gmail.com",
+      "phone": "09051605400",
+      "serviceDescription": "jknkllkklkl",
+      "preferredDate": "2026-01-24",
+      "createdAt": "2026-01-15T16:23:10.943Z",
+      "status": "pending"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "analytics": {
+    "requestsByDay": [
+      {
+        "date": "2025-01-09",
+        "count": 35
+      },
+      {
+        "date": "2025-01-10",
+        "count": 42
+      },
+      {
+        "date": "2025-01-11",
+        "count": 38
+      },
+      {
+        "date": "2025-01-12",
+        "count": 55
+      },
+      {
+        "date": "2025-01-13",
+        "count": 49
+      }
+    ],
+    "totalArtisans": 1240,
+    "activeRequests": 317
+  }
 }
